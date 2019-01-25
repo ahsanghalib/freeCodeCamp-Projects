@@ -1,0 +1,84 @@
+html,
+body {
+    margin: 15px auto;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: lightblue;
+}
+
+#title {
+    font-size: 36px;
+    margin: auto;
+    padding: 0;
+}
+
+#survey-form {
+    max-width: 550px;
+    margin: auto;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 5px 5px black;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 250px auto;
+}
+
+.labels {
+    text-align: right;
+    padding: 10px;
+    /* vertical-align: middle; */
+}
+
+.fields {
+    text-align: left;
+    vertical-align: middle;
+}
+
+
+.radio,
+.checkbox {
+    position: relative;
+    left: -40px;
+}
+
+textarea {
+    width: 90%;
+    resize: vertical;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+    width: 260px;
+    height: 25px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.dropdown {
+    height: 35px;
+    width: 140px;
+    padding: 5px;
+    margin: 10px;
+    margin-top: 15px;
+}
+
+#submit {
+    background-color: blue;
+    border-radius: 25px;
+    color: white;
+    font-size: 1em;
+    height: 40px;
+    width: 96px;
+    margin: auto;
+    border: 0px solid;
+}
+
+.button {
+    margin-top: 10px;
+    grid-column: 1/3;
+}
